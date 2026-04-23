@@ -41,8 +41,7 @@ Examples:
 If you restore a newer archive into an older server, you may see warnings like:
 
 ```
-WARNING: This archive came from MongoDB X.Y, but you are restoring to Z.W
-This is unsupported and may result in corrupted data.
+WARNING: This archive came from MongoDB `X.X.X`, but you are restoring to `Y.Y.Y`. Cross-version dump & restore is unsupported. The restored data may be corrupted.
 ```
 
 ---
